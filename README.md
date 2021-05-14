@@ -5,4 +5,8 @@
 https://ac.nowcoder.com/acm/contest/15703?from=acm_calendar
 
 ## 说明
-如果push不成功可以试试git config --global --unset https.proxy
+如果push不成功可以试试
+
+git config --global --unset https.proxy
+
+git config --global http.proxy 127.0.0.1:7890(VPN进程端口号)
